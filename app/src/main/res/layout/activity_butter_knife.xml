@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/click.button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Click Button" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/appCompatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ButterKnife"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/change.button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Change No ButterKnife" />
+
+</LinearLayout>
