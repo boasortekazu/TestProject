@@ -24,12 +24,13 @@ public class ButterKnifeActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    // idで指定したViewの
+    // idで指定したViewのクリック処理
     @OnClick(R.id.click_button)
     public void onClickButton() {
         appCompatTextView.setText(count++ + " click");
     }
 
+    // idで指定したViewのクリック処理
     @OnClick(R.id.change_button)
     public void onClickChangeButton() {
         Intent intent = new Intent(this, NoButterKnifeActivity.class);
