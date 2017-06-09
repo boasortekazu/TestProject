@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="title_activity_butter_knife">ButterKnifeActivity</string>
+    <string name="title_activity_no_butter_knife">NoButterKnifeActivity</string>
+</resources>
